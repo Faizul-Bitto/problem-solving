@@ -20,6 +20,7 @@
 - [🎯 Platforms](#-platforms)
 - [📁 Repository Structure](#-repository-structure)
 - [🛠️ Technologies](#️-technologies)
+- [💻 Getting Started](#-getting-started)
 - [📝 Notes](#-notes)
 
 ---
@@ -34,6 +35,7 @@ This repository contains my solutions to competitive programming problems from v
 - ✅ Test cases included for verification
 - ✅ Solutions from multiple platforms
 - ✅ Categorized by difficulty and platform
+- ✅ Ready-to-compile C++ code
 
 ---
 
@@ -58,20 +60,36 @@ problem-solving/
 │       ├── 📂 CodeChef/
 │       │   ├── 📂 Contests/
 │       │   │   └── 📂 [Contest Names]/
-│       │   │       └── 📄 [problem-name].cpp
+│       │   │       └── 📂 [Problem Numbers]-[Problem Names]/
+│       │   │           ├── 📄 [problem-name].cpp
+│       │   │           ├── 📥 input.txt
+│       │   │           ├── 📤 output.txt
+│       │   │           └── ⚙️ [problem-name].exe
+│       │   │
+│       │   ├── 📂 Past Contests/
+│       │   │   └── 📂 [Past Contest Names]/
+│       │   │       └── 📂 [Problem Numbers]-[Problem Names]/
 │       │   │
 │       │   └── 📂 Problems/
-│       │       └── 📂 [Problem Names]/
-│       │           └── 📄 [problem-name].cpp
+│       │       └── 📂 [Problem Numbers]-[Problem Names]/
+│       │           ├── 📄 [problem-name].cpp
+│       │           ├── 📥 input.txt
+│       │           ├── 📤 output.txt
+│       │           └── ⚙️ [problem-name].exe
 │       │
 │       └── 📂 Codeforces/
 │           ├── 📂 Contests/
 │           │   └── 📂 [Contest Names]/
-│           │       └── 📄 [problem-name].cpp
+│           │       └── 📂 Rating/[Rating Levels]/
+│           │           └── 📂 [Problem Numbers]-[Problem Names]/
 │           │
 │           └── 📂 Ratings/
 │               └── 📂 [Rating Levels]/
-│                   └── 📄 [problem-name].cpp
+│                   └── 📂 [Problem Numbers]-[Problem Names]/
+│                       ├── 📄 [problem-name].cpp
+│                       ├── 📥 input.txt
+│                       ├── 📤 output.txt
+│                       └── ⚙️ [problem-name].exe
 │
 └── 📄 README.md
 ```
@@ -87,6 +105,36 @@ problem-solving/
 | **C++** | Primary programming language for competitive programming |
 
 </div>
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- C++ compiler (GCC, Clang, or MSVC)
+- Any text editor or IDE
+
+### Compilation
+
+To compile a C++ solution:
+
+```bash
+g++ -o solution solution.cpp
+```
+
+Or on Windows with MSVC:
+
+```bash
+cl solution.cpp
+```
+
+### Running Solutions
+
+1. Navigate to the problem directory
+2. Compile the `.cpp` file
+3. Run with input file: `./solution < input.txt` (Linux/Mac) or `solution.exe < input.txt` (Windows)
+4. Compare output with `output.txt`
 
 ---
 
@@ -107,6 +155,13 @@ Each problem solution includes:
 - Code follows competitive programming conventions
 - All solutions are tested with provided test cases
 - Clean and readable code structure
+- Problems are organized by platform, contest, and difficulty
+
+### 📌 Naming Convention
+
+- Problem folders follow the pattern: `[Number]-[Problem-Name]`
+- Source files use kebab-case: `problem-name.cpp`
+- Contests are named with their full identifier and date
 
 ---
 
