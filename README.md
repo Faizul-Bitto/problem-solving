@@ -149,14 +149,6 @@ Each problem solution includes:
 - 📤 **Output File** (`output.txt`) - Expected output
 - ⚙️ **Executable** (`.exe`) - Compiled binary (Windows)
 
-### 💡 Best Practices
-
-- Solutions are optimized for time and space complexity
-- Code follows competitive programming conventions
-- All solutions are tested with provided test cases
-- Clean and readable code structure
-- Problems are organized by platform, contest, and difficulty
-
 ### 📌 Naming Convention
 
 - Problem folders follow the pattern: `[Number]-[Problem-Name]`
