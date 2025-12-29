@@ -11,11 +11,17 @@
 
 *A curated collection of competitive programming solutions from various online judges*
 
+![GitHub stars](https://img.shields.io/github/stars/user/repo?style=social)
+![GitHub forks](https://img.shields.io/github/forks/user/repo?style=social)
+
 ---
 
 </div>
 
 ## 📑 Table of Contents
+
+<details>
+<summary>Click to expand</summary>
 
 - [📚 Overview](#-overview)
 - [🎯 Platforms](#-platforms)
@@ -23,33 +29,94 @@
 - [🛠️ Technologies](#️-technologies)
 - [📝 Notes](#-notes)
 
+</details>
+
 ---
 
 ## 📚 Overview
 
+<div align="center">
+
+**Welcome to my Competitive Programming Journey! 🎯**
+
+</div>
+
 This repository contains my solutions to competitive programming problems from various online judges. Each solution is carefully crafted and tested to ensure correctness and efficiency.
 
-**Key Features:**
+### ✨ Key Features
 
-- ✅ Well-organized problem solutions
-- ✅ Test cases included for verification
-- ✅ Solutions from multiple platforms
-- ✅ Categorized by difficulty, platform, and contest type
-- ✅ Solutions organized by rating/difficulty levels
+<div align="center">
+
+| Feature | Description |
+|:-------:|:-----------|
+| 🗂️ **Well-Organized** | Solutions systematically categorized by platform, difficulty, and type |
+| ✅ **Tested** | All solutions include test cases for verification |
+| 🌐 **Multi-Platform** | Solutions from CodeChef, Codeforces, and AtCoder |
+| 📊 **Rating-Based** | Organized by difficulty ratings for easy navigation |
+| 🎯 **Contest Ready** | Solutions from various contests and practice problems |
+
+</div>
 
 ---
 
 ## 🎯 Platforms
 
-| Platform | Type | Status |
-|----------|------|--------|
-| **CodeChef** | Contests, Practice Problems & Difficulty Rating Wise | 🟢 Active |
-| **Codeforces** | Contests & Rated Problems | 🟢 Active |
-| **AtCoder** | Contests & Problems | 🟢 Active |
+<div align="center">
+
+### Supported Online Judges
+
+</div>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 🟠 CodeChef
+
+**Contests & Practice Problems**
+
+- ✅ Active Contests
+- ✅ Past Contests
+- ✅ Practice Problems
+- ✅ Difficulty Rating Wise
+
+</td>
+<td align="center" width="33%">
+
+### 🔵 Codeforces
+
+**Contests & Rated Problems**
+
+- ✅ Contest Rounds
+- ✅ Rated Problems
+- ✅ Rating-based Organization
+- ✅ Div 4, Div 3, Div 2
+
+</td>
+<td align="center" width="33%">
+
+### 🟡 AtCoder
+
+**Contests & Problems**
+
+- ✅ Active Contests
+- ✅ Past Contests
+- ✅ Practice Problems
+- ✅ Beginner Contests
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 📁 Repository Structure
+
+<div align="center">
+
+### 📂 Directory Tree
+
+</div>
 
 ```text
 problem-solving/
@@ -107,9 +174,21 @@ problem-solving/
 
 <div align="center">
 
-| Technology | Purpose |
-|:----------:|:--------:|
-| **C++** | Primary programming language for competitive programming |
+### 🎨 Tech Stack
+
+<table>
+<tr>
+<td align="center">
+
+**C++**
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60" height="60"/>
+
+Primary programming language for competitive programming
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -119,40 +198,89 @@ problem-solving/
 
 ### 📦 Solution Format
 
+<div align="center">
+
 Each problem solution includes:
 
-- 📄 **Source Code** (`.cpp`) - The solution implementation
-- 📥 **Input File** (`input.txt`) - Test input cases
-- 📤 **Output File** (`output.txt`) - Expected output
-- ⚙️ **Executable** (`.exe`) - Compiled binary (Windows)
+</div>
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+**📄 Source Code**
+
+`.cpp` files
+
+</td>
+<td align="center" width="25%">
+
+**📥 Input File**
+
+`input.txt`
+
+</td>
+<td align="center" width="25%">
+
+**📤 Output File**
+
+`output.txt`
+
+</td>
+<td align="center" width="25%">
+
+**⚙️ Executable**
+
+`.exe` (Windows)
+
+</td>
+</tr>
+</table>
 
 ### 📂 Organization
 
-Solutions are organized by:
+Solutions are systematically organized by:
 
-- **Platform** - CodeChef, Codeforces, AtCoder
-- **Type** - Contests, Practice Problems, Past Contests
-- **Difficulty** - Rating levels (800, 500, etc.) or difficulty ratings
-- **Contest** - Specific contest rounds and dates
+<div align="center">
+
+| Category | Description |
+|:--------:|:-----------|
+| **🌐 Platform** | CodeChef, Codeforces, AtCoder |
+| **📋 Type** | Contests, Practice Problems, Past Contests |
+| **📊 Difficulty** | Rating levels (800, 500, etc.) |
+| **🏆 Contest** | Specific contest rounds and dates |
+
+</div>
 
 ### 💡 Best Practices
 
-- Solutions are optimized for time and space complexity
-- Code follows competitive programming conventions
-- All solutions are tested with provided test cases
-- Clean and readable code structure
-- Problems are systematically organized for easy navigation
+<div align="center">
+
+✅ **Optimized** - Time and space complexity optimized  
+✅ **Conventional** - Follows competitive programming standards  
+✅ **Tested** - All solutions verified with test cases  
+✅ **Clean** - Readable and well-structured code  
+✅ **Organized** - Easy navigation and systematic structure  
+
+</div>
 
 ---
 
 <div align="center">
 
-### 🌟 Happy Coding! 🎉
+## 🌟 Happy Coding! 🎉
 
 *Keep solving, keep learning!*
 
 ---
 
-⭐ **Star this repo if you find it helpful!** ⭐
+### ⭐ Star this repo if you find it helpful! ⭐
+
+**Made with ❤️ for Competitive Programming**
+
+---
+
+![GitHub last commit](https://img.shields.io/github/last-commit/user/repo?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/user/repo?style=flat-square)
 
 </div>
