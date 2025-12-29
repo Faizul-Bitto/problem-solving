@@ -11,9 +11,6 @@
 
 *A curated collection of competitive programming solutions from various online judges*
 
-![GitHub stars](https://img.shields.io/github/stars/user/repo?style=social)
-![GitHub forks](https://img.shields.io/github/forks/user/repo?style=social)
-
 ---
 
 </div>
@@ -277,10 +274,5 @@ Solutions are systematically organized by:
 ### ⭐ Star this repo if you find it helpful! ⭐
 
 **Made with ❤️ for Competitive Programming**
-
----
-
-![GitHub last commit](https://img.shields.io/github/last-commit/user/repo?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/user/repo?style=flat-square)
 
 </div>
