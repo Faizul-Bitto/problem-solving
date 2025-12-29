@@ -7,6 +7,7 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)
 ![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)
+![AtCoder](https://img.shields.io/badge/AtCoder-1F8ACB?style=for-the-badge&logo=atcoder&logoColor=white)
 
 *A curated collection of competitive programming solutions from various online judges*
 
@@ -20,7 +21,6 @@
 - [🎯 Platforms](#-platforms)
 - [📁 Repository Structure](#-repository-structure)
 - [🛠️ Technologies](#️-technologies)
-- [💻 Getting Started](#-getting-started)
 - [📝 Notes](#-notes)
 
 ---
@@ -34,8 +34,8 @@ This repository contains my solutions to competitive programming problems from v
 - ✅ Well-organized problem solutions
 - ✅ Test cases included for verification
 - ✅ Solutions from multiple platforms
-- ✅ Categorized by difficulty and platform
-- ✅ Ready-to-compile C++ code
+- ✅ Categorized by difficulty, platform, and contest type
+- ✅ Solutions organized by rating/difficulty levels
 
 ---
 
@@ -43,8 +43,9 @@ This repository contains my solutions to competitive programming problems from v
 
 | Platform | Type | Status |
 |----------|------|--------|
-| **CodeChef** | Contests & Practice Problems | 🟢 Active |
+| **CodeChef** | Contests, Practice Problems & Difficulty Rating Wise | 🟢 Active |
 | **Codeforces** | Contests & Rated Problems | 🟢 Active |
+| **AtCoder** | Contests & Problems | 🟢 Active |
 
 ---
 
@@ -60,36 +61,42 @@ problem-solving/
 │       ├── 📂 CodeChef/
 │       │   ├── 📂 Contests/
 │       │   │   └── 📂 [Contest Names]/
-│       │   │       └── 📂 [Problem Numbers]-[Problem Names]/
-│       │   │           ├── 📄 [problem-name].cpp
-│       │   │           ├── 📥 input.txt
-│       │   │           ├── 📤 output.txt
-│       │   │           └── ⚙️ [problem-name].exe
+│       │   │       └── 📄 [problem-name].cpp
 │       │   │
 │       │   ├── 📂 Past Contests/
 │       │   │   └── 📂 [Past Contest Names]/
-│       │   │       └── 📂 [Problem Numbers]-[Problem Names]/
+│       │   │       └── 📄 [problem-name].cpp
 │       │   │
-│       │   └── 📂 Problems/
-│       │       └── 📂 [Problem Numbers]-[Problem Names]/
-│       │           ├── 📄 [problem-name].cpp
-│       │           ├── 📥 input.txt
-│       │           ├── 📤 output.txt
-│       │           └── ⚙️ [problem-name].exe
+│       │   ├── 📂 Problems/
+│       │   │   └── 📂 [Problem Names]/
+│       │   │       └── 📄 [problem-name].cpp
+│       │   │
+│       │   └── 📂 Difficulty Rating Wise/
+│       │       └── 📂 [Rating Levels]/
+│       │           └── 📄 [problem-name].cpp
 │       │
-│       └── 📂 Codeforces/
+│       ├── 📂 Codeforces/
+│       │   ├── 📂 Contests/
+│       │   │   └── 📂 [Contest Names]/
+│       │   │       └── 📂 Rating/
+│       │   │           └── 📂 [Rating Levels]/
+│       │   │               └── 📄 [problem-name].cpp
+│       │   │
+│       │   └── 📂 Ratings/
+│       │       └── 📂 [Rating Levels]/
+│       │           └── 📄 [problem-name].cpp
+│       │
+│       └── 📂 AtCoder/
 │           ├── 📂 Contests/
 │           │   └── 📂 [Contest Names]/
-│           │       └── 📂 Rating/[Rating Levels]/
-│           │           └── 📂 [Problem Numbers]-[Problem Names]/
+│           │       └── 📄 [problem-name].cpp
 │           │
-│           └── 📂 Ratings/
-│               └── 📂 [Rating Levels]/
-│                   └── 📂 [Problem Numbers]-[Problem Names]/
-│                       ├── 📄 [problem-name].cpp
-│                       ├── 📥 input.txt
-│                       ├── 📤 output.txt
-│                       └── ⚙️ [problem-name].exe
+│           ├── 📂 Past Contests/
+│           │   └── 📂 [Past Contest Names]/
+│           │       └── 📄 [problem-name].cpp
+│           │
+│           └── 📂 Problems/
+│               └── 📄 [problem-name].cpp
 │
 └── 📄 README.md
 ```
@@ -108,36 +115,6 @@ problem-solving/
 
 ---
 
-## 💻 Getting Started
-
-### Prerequisites
-
-- C++ compiler (GCC, Clang, or MSVC)
-- Any text editor or IDE
-
-### Compilation
-
-To compile a C++ solution:
-
-```bash
-g++ -o solution solution.cpp
-```
-
-Or on Windows with MSVC:
-
-```bash
-cl solution.cpp
-```
-
-### Running Solutions
-
-1. Navigate to the problem directory
-2. Compile the `.cpp` file
-3. Run with input file: `./solution < input.txt` (Linux/Mac) or `solution.exe < input.txt` (Windows)
-4. Compare output with `output.txt`
-
----
-
 ## 📝 Notes
 
 ### 📦 Solution Format
@@ -149,11 +126,22 @@ Each problem solution includes:
 - 📤 **Output File** (`output.txt`) - Expected output
 - ⚙️ **Executable** (`.exe`) - Compiled binary (Windows)
 
-### 📌 Naming Convention
+### 📂 Organization
 
-- Problem folders follow the pattern: `[Number]-[Problem-Name]`
-- Source files use kebab-case: `problem-name.cpp`
-- Contests are named with their full identifier and date
+Solutions are organized by:
+
+- **Platform** - CodeChef, Codeforces, AtCoder
+- **Type** - Contests, Practice Problems, Past Contests
+- **Difficulty** - Rating levels (800, 500, etc.) or difficulty ratings
+- **Contest** - Specific contest rounds and dates
+
+### 💡 Best Practices
+
+- Solutions are optimized for time and space complexity
+- Code follows competitive programming conventions
+- All solutions are tested with provided test cases
+- Clean and readable code structure
+- Problems are systematically organized for easy navigation
 
 ---
 
