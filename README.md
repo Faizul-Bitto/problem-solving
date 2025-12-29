@@ -253,8 +253,6 @@ Solutions are systematically organized by:
 
 <div align="center">
 
-✅ **Optimized** - Time and space complexity optimized  
-✅ **Conventional** - Follows competitive programming standards  
 ✅ **Tested** - All solutions verified with test cases  
 ✅ **Clean** - Readable and well-structured code  
 ✅ **Organized** - Easy navigation and systematic structure  
